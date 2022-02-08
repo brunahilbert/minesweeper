@@ -26,7 +26,7 @@ public class Terminal {
             while (toContinue) {
                 gameCycle();
 
-                System.out.println("Do you want to start a new game? (Y/n) ");
+                System.out.println("Do you want to start a new game? (Y/N) ");
                 String answer = entry.nextLine();
 
                 if ("n".equalsIgnoreCase(answer)) {
